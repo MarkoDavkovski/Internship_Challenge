@@ -55,7 +55,10 @@ footer {
 
 .layout-container {
 	display: grid;
-	grid-template-columns: 20vw auto 20vw;
+	grid-template-columns: minmax(min-content, 300px) auto minmax(
+			min-content,
+			300px
+		);
 	gap: 5rem;
 	position: relative;
 	padding: 1.5rem;
@@ -196,8 +199,6 @@ article > .user-details {
 }
 
 article > .img-container {
-	/* position: relative;
-	z-index: 0; */
 	width: var(--article-width);
 	aspect-ratio: 1/1;
 	overflow: hidden;
@@ -207,8 +208,6 @@ article > .img-container {
 	height: 100%;
 	object-fit: cover;
 	border-radius: 10px;
-	/* position: absolute;
-	z-index: 1; */
 }
 
 .bottom-section {
@@ -329,8 +328,11 @@ article > .img-container {
 	align-items: center;
 	gap: 0.5rem;
 }
+
 .menu-item:hover {
 	background-color: var(--color-light-gray);
+}
+.menu-item:hover i {
 	font-size: 1.3rem;
 }
 .sidebar .active {
@@ -419,7 +421,9 @@ article > .img-container {
 		display: none;
 	}
 	.bottom-section {
-		width: 100%;
+		width: 58.5vw;
+		column-gap: 0;
+		padding: 0.5rem;
 	}
 
 	footer {
@@ -474,4 +478,24 @@ article > .img-container {
 }
 
 @media (max-width: 1000px) {
+	article {
+		height: fit-content;
+	}
+	.bottom-section {
+		position: static;
+		background-image: none;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 0.2fr 1fr;
+	}
+	.post-caption,
+	.number-of-likes,
+	.likes > i,
+	.date-container {
+		color: var(--color-black);
+	}
+	.post-caption {
+		grid-column: 1/-1;
+		grid-row: 2/3;
+		width: 100%;
+	}
 }
