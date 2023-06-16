@@ -78,7 +78,7 @@ async function loadMore() {
 		profileImg.appendChild(profilePictureImg);
 
 		imgContainer.appendChild(postImg);
-		imgContainer.appendChild(bottomSection);
+		article.appendChild(bottomSection);
 
 		bottomSection.appendChild(likesContainer);
 		bottomSection.appendChild(postCaption);
