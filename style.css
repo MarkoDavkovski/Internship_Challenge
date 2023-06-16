@@ -140,7 +140,7 @@ input:checked + .slider:before {
 	border-radius: var(--border-radius);
 	font-weight: 600;
 	transition: all 300ms ease;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 .btn:hover {
@@ -378,8 +378,6 @@ article > .img-container {
 .load-more {
 	background-color: var(--accent-color);
 	color: white;
-	font-size: 1.2rem;
-	flex-shrink: 0;
 	padding: var(--btn-padding);
 	width: fit-content;
 }

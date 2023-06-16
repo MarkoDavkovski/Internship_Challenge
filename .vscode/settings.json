@@ -1,3 +1,6 @@
 {
-	"cSpell.words": ["Davkovski"]
+	"cSpell.words": [
+		"Davkovski"
+	],
+	"diffEditor.codeLens": true
 }
