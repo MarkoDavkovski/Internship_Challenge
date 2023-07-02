@@ -27,7 +27,7 @@ This repository contains my solution to the internship challenge for a job appli
 
 ## Live Preview
 
-You can view the live preview of the project [here](https://markodavkovski.github.io/Intership_Challenge/).
+You can view the live preview of the project [here](https://markodavkovski.github.io/Internship_Challenge/).
 
 ## Getting Started
 
