@@ -14,7 +14,6 @@ This repository contains my solution to the internship challenge for a job appli
 - **JSON Data**: The repository includes a file named `data.json` in the same folder as the code. This file contains social media posts with details such as caption, name, date, and image. The information is fetched directly from the file using JavaScript.
 - **Feed Layout**: An attractive and responsive social media feed is created using HTML and CSS. The layout is designed to be consistent across different devices.
 - **Load More Functionality**: Users can see more posts by clicking the "Load More" button. Initially, four posts are displayed, and clicking the button reveals four additional posts. This process continues until all the posts are loaded, at which point the "Load More" button is hidden.
-- **Image Lightbox**: Clicking on an image within a post enlarges it using a lightbox. This feature allows users to view the image in more detail without leaving the feed.
 - **Theme Switching**: The user interface design includes a light/dark mode feature. A toggle is placed in the header, allowing users to switch between modes based on their preferences. The theme affects all visual elements, including text, backgrounds, and images, ensuring a consistent viewing experience.
 
 ### Requirements
